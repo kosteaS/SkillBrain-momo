@@ -1,0 +1,76 @@
+.head{
+    max-width: 1200px;
+    margin:auto;
+}
+.head-flex{
+    display: flex;
+    
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    padding: 3%;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 46px;
+    padding-left: 10%;
+    
+}
+.info{
+    background-color: #005889;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+    font-size: 20px;      
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;  /* Preferred icon size */
+    color: #ffffff;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: 1tr;
+}
+a:link, a:visited {
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+.body{
+    border: 3px solid #005889;
+    border-radius: 2%;
+    max-width:1200px;
+    margin:auto;
+    margin-top: 2px;
+    padding-top: 50px;
+    padding-left: 2%;
+  }
+h2{
+    color:#005889
+    
+}
+table {
+    width: 60%;
+}
+table tr th{
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(173, 173, 175);
+}
+td:hover {background-color: #005889;}
+
+td {
+    border-radius: 5px;
+}
