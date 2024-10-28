@@ -30,3 +30,4 @@ function ziuaSaptamanii(numar) {
 console.log(ziuaSaptamanii(1));
 console.log(ziuaSaptamanii(5));
 console.log(ziuaSaptamanii(8)); 
+

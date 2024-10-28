@@ -6,3 +6,5 @@ tellFortune(
     numePartener="Emanuel", 
     locatieGeografica="Italia", 
     locMunca="Programator");
+
+    
