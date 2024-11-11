@@ -1,5 +1,7 @@
-let input = 100;
-let DivizibilCu10 = input % 10 === 0;
+function DivizibilCu10(numar) {
+    return numar % 10 === 0;
+}
 
-console.log(DivizibilCu10);
+console.log(DivizibilCu10(100));
+console.log(DivizibilCu10(23)); 
 
