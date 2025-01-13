@@ -1,0 +1,136 @@
+body {
+  font-family: Bellefair;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.bellefair-regular {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  gap: 15px;
+  background: rgba(244, 241, 241, 0.04);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.logo{
+  padding: 55px;
+}
+.menu-line{
+  width: auto;
+  height: 1px;
+}
+
+.menu-item {
+  cursor: pointer;
+  color: #fcfcfa;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+.content-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.content-item {
+  display: flex;
+  text-align: center;
+
+}
+
+.text-container{
+  width: 445px;
+  height: 472px;
+
+}
+
+.category-item img {
+  width: 100%;
+  max-width: 400px;
+  margin: 15px auto;
+}
+
+#sub-menu-container {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.sub-menu-item {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.sub-menu-item:hover {
+  text-decoration: underline;
+}
+
+h2{
+  font-size: 100px;
+  font-weight: 400;
+
+}
+
+p3{ 
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+
+}
+
+.home-explore-button{
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.home-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-space, .destinations-name{
+
+  font-size: 150px;
+  font-weight: 400;
+
+}
+
+
+
